@@ -9,7 +9,7 @@ class LaporanController extends Controller
 {
     public function create()
     {
-        return view('laporan.form_pelaporan');
+        return view('form_pelaporan.form_pelaporan');
     }
 
     public function store(Request $request)
